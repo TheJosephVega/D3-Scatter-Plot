@@ -1,0 +1,36 @@
+#chart {
+  margin-top: 60px;
+  text-align: center;
+}
+#chart svg {
+  background-color: #eee;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.dot:hover {
+  stroke: #000;
+}
+.tooltip {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+}
+.tooltip:after {
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0,0,0,0.9);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  left: 0;
+}

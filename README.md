@@ -1,1 +1,2 @@
-# D3-Scatter-Plot
+# D3 Scatter Plot
+This repository contains my code for the [Visualize Data with a Scatter Plot Graph Challenge](https://www.freecodecamp.com/challenges/visualize-data-with-a-scatterplot-graph) on [FreeCodeCamp](https://www.freecodecamp.com/). A working example of the application can be found here: [D3 Scatter Plot](http://codepen.io/JosephVega/pen/vXBVpp)
